@@ -10,7 +10,7 @@ Make sure you have:
 # 1) MongoDBFinder_github.bat
   * First, go to https://github.com/Kxk162730/MongoDBFinder
   * Click on the green button with the download symbol that says "Code"
-  * Click download zip
+  * Click the "download zip" button
   * Navigate to the downloads folder on your computer and click save
   * Go to downloads folder, right-click on the "MongoDBFinder-main.zip", click extract all, make sure it is saving in the downloads folder, and click "Extract"
   * Double Click on the extracted folder "MongoDBFinder-main", and double click again on the folder "MongoDBFinder-main"
@@ -35,7 +35,7 @@ Make sure you have:
 # 2) MongoDBFast_github.bat
   * First, go to https://github.com/Kxk162730/MongoDBFinder
   * Click on the green button with the download symbol that says "Code"
-  * Click download zip
+  * Click the "download zip" button
   * Navigate to the downloads folder on your computer and click save
   * Go to downloads folder, right-click on the "MongoDBFinder-main.zip", click extract all, make sure it is saving in the downloads folder, and click "Extract"
   * Double Click on the extracted folder "MongoDBFinder-main", and double click again on the folder "MongoDBFinder-main"
