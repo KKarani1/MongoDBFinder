@@ -7,7 +7,7 @@ Make sure you have:
 * A Windows 10 computer
 * Downloaded the MongoShell File and extracted/unzipped the contents (preferably in the downloads folder).
 
-1) MongoDBFinder_github.bat
+# 1) MongoDBFinder_github.bat
   * First, go to https://github.com/Kxk162730/MongoDBFinder
   * Click on the green button with the download symbol that says "Code"
   * Click download zip
@@ -32,7 +32,7 @@ Make sure you have:
   * Now and forever onwards, you can just double click this file and enter your password to reconnect.
   * **Limitations: you can't delete MongoDB shell download files**
 
-2) MongoDBFast_github.bat
+# 2) MongoDBFast_github.bat
   * First, go to https://github.com/Kxk162730/MongoDBFinder
   * Click on the green button with the download symbol that says "Code"
   * Click download zip
