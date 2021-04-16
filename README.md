@@ -7,5 +7,8 @@ Make sure you have:
 Downloaded the MongoShell File and extracted/unzipped the contents (preferably in the downloads folder).
 
 1) MongoDBFinder_github.bat
+  * First go to 
+  *
+  *
 
 2) MongoDBFast_github.bat
