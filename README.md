@@ -30,6 +30,7 @@ Make sure you have:
   * Double click on "MongoDBFinder_github.bat", wait a couple of secs for MongoDBFinder to find the mongo.exe, and enter in your password
   * Congrats! You have finally connected to your MongoDB cluster with Mongo Shell.
   * Now and forever onwards, you can just double click this file and enter your password to reconnect.
+  * Limitations: you can't delete MongoDB shell download
 
 2) MongoDBFast_github.bat
   * First, go to https://github.com/Kxk162730/MongoDBFinder
@@ -43,6 +44,8 @@ Make sure you have:
   * Microsoft Defender SmartScreen might show up, click "more info", and then "Run Anyway" (If this makes you uncomfortable, you can copy the code of the batch file on the website and paste it into your own batch file).
   * Now you should see the code to the "MongoDBFast_github.bat"
   * Although the batch file was made with the assumption that you downloaded MongoDB shell to the downloads folder and extracted it there, let's guide you through the process assuming that you haven't.
-  * erase the line after the command cd, leaving only a space. Before should be 
-  * 
-  * 
+  * erase the line after the command cd, leaving only a space.
+Before: "cd C:\Users\%username%\Downloads\mongodb-shell-windows-x86_64-4.4.5\mongodb-win32-x86_64-windows-4.4.5\bin"
+After: "cd " <- notice the spacing! it is important!
+  * Next, open up cmd prompt (press windows key, type "cmd", open the cmd prompt) *although we won't be using it for intended purpose, its drag and drop feature will allow us to find the file path of **THE BIN FOLDER** containing mongo.exe*
+  * navigate to **THE BIN FOLDER** containing mongo.exe and drop-and-drop the folder onto cmd prompt. It should have created it something similar to C:\Users\%username%\MongoDB\bin
