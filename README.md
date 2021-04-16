@@ -18,14 +18,31 @@ Make sure you have:
   * Right click on "MongoDBFinder_github.bat" and Edit
   * Microsoft Defender SmartScreen might show up, click "more info", and then "Run Anyway" (If this makes you uncomfortable, you can copy the code of the batch file on the website and paste it into your own batch file).
   * Now you should see the code to the "MongoDBFinder_github.bat"
+  * Erase the "mongo "mongodb+srv://cluster0.XXXXX.mongodb.net/myFirstDatabase" --username XXXXXXXX", we will replace this with your own connection string on MongoDB.com
+  * Leave the batch file open and open a browser
   * Next, go to https://www.mongodb.com/
   * login to mongodb, find the cluster you want to connect to, and click connect
   * click "connect with the mongo shell"
+  * click on the copy text icon on step number 3 (the icon will turn into a green check mark).
+  * Next, go back to the batch file, and paste the connection string into the space where "mongo "mongodb+srv://cluster0.XXXXX.mongodb.net/myFirstDatabase" --username XXXXXXXX" was
+  * Now save the file (file > save)
+  * If you want, you can move "MongoDBFinder_github.bat" to your desktop. This is optional.
+  * Double click on "MongoDBFinder_github.bat", wait a couple of secs for MongoDBFinder to find the mongo.exe, and enter in your password
+  * Congrats! You have finally connected to your MongoDB cluster with Mongo Shell.
+  * Now and forever onwards, you can just double click this file and enter your password to reconnect.
 
 2) MongoDBFast_github.bat
   * First, go to https://github.com/Kxk162730/MongoDBFinder
-  * Hover over the link MongoDBFast_github.bat
-  * Right click and click "Save link as"
+  * Click on the green button with the download symbol that says "Code"
+  * Click download zip
   * Navigate to the downloads folder on your computer and click save
-  * Next, open cmd prompt (press the windows key, type cmd, and click open cmd)
+  * Go to downloads folder, right-click on the "MongoDBFinder-main.zip", click extract all, make sure it is saving in the downloads folder, and click "Extract"
+  * Double Click on the extracted folder "MongoDBFinder-main", and double click again on the folder "MongoDBFinder-main"
+  * At this point you should see three files: MongoDBFast_github.bat, MongoDBFinder_github.bat, README.md
+  * Right click on "MongoDBFast_github.bat" and Edit
+  * Microsoft Defender SmartScreen might show up, click "more info", and then "Run Anyway" (If this makes you uncomfortable, you can copy the code of the batch file on the website and paste it into your own batch file).
+  * Now you should see the code to the "MongoDBFast_github.bat"
+  * Although the batch file was made with the assumption that you downloaded MongoDB shell to the downloads folder and extracted it there, let's guide you through the process assuming that you haven't.
+  * erase the line after the command cd, leaving only a space. Before should be 
+  * 
   * 
