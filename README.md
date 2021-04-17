@@ -15,7 +15,7 @@ Make sure you have:
   * Go to downloads folder, right-click on the "MongoDBFinder-main.zip", click extract all, make sure it is saving in the downloads folder, and click "Extract"
   * Double Click on the extracted folder "MongoDBFinder-main", and double click again on the folder "MongoDBFinder-main"
   * At this point you should see three files: MongoDBFast_github.bat, MongoDBFinder_github.bat, README.md
-  * Right click on "MongoDBFinder_github.bat" and Edit
+  * Right click on "MongoDBFinder_github.bat" and click "Edit"
   * Microsoft Defender SmartScreen might show up, click "more info", and then "Run Anyway" (If this makes you uncomfortable, you can copy the code of the batch file on the website and paste it into your own batch file)
   * Now you should see the code to the "MongoDBFinder_github.bat"
   * Erase the "mongo "mongodb+srv://cluster0.XXXXX.mongodb.net/myFirstDatabase" --username XXXXXXXX", we will replace this with your own connection string on MongoDB.com
@@ -40,7 +40,7 @@ Make sure you have:
   * Go to downloads folder, right-click on the "MongoDBFinder-main.zip", click extract all, make sure it is saving in the downloads folder, and click "Extract"
   * Double Click on the extracted folder "MongoDBFinder-main", and double click again on the folder "MongoDBFinder-main"
   * At this point you should see three files: MongoDBFast_github.bat, MongoDBFinder_github.bat, README.md
-  * Right click on "MongoDBFast_github.bat" and Edit
+  * Right click on "MongoDBFinder_github.bat" and click "Edit"
   * Microsoft Defender SmartScreen might show up, click "more info", and then "Run Anyway" (If this makes you uncomfortable, you can copy the code of the batch file on the website and paste it into your own batch file)
   * Now you should see the code to the "MongoDBFast_github.bat"
   * Although the batch file was made with the assumption that you downloaded MongoDB shell to the downloads folder and extracted it there, let's guide you through the process assuming that you haven't
