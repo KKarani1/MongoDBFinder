@@ -5,7 +5,7 @@ There are two versions of this file: [**1) MongoDBFinder_github.bat**](https://g
 
 Make sure you have:
 * A Windows 10 computer
-* Downloaded the MongoShell File and extracted/unzipped the contents (preferably in the downloads folder).
+* Downloaded the Mongo Shell zip from https://www.mongodb.com/ and extracted/unzipped the contents (preferably in the downloads folder).
 
 # 1) MongoDBFinder_github.bat
   * First, go to https://github.com/Kxk162730/MongoDBFinder
