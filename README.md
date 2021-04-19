@@ -4,8 +4,7 @@
 There are two versions of this file: [**1) MongoDBFinder_github.bat**](https://github.com/Kxk162730/MongoDBFinder/blob/main/README.md#1-mongodbfinder_githubbat) and [**2) MongoDBFast_github.bat**](https://github.com/Kxk162730/MongoDBFinder/blob/main/README.md#2-mongodbfast_githubbat). Which one you use depends on how comfortable you are with cmd prompt. If you are comfortable with cmd prompt and have been able to connect to MongoDB with no issues, I would suggest that you go to 2) (it is less flexible but faster). If you aren't comfortable with cmd prompt, I would suggest that you go to 1) (it is more flexible but a little slower). I wrote MongoDBFinder_github.bat batch file to find mongo.exe on your computer no matter where it is located. Both require a little set up, but save you the headache of doing the process every time you need to connect to Mongo Shell.
 
 What's the difference between MongoDBFinder_github.bat vs. MongoDBFast_github.bat?
-
-After setup, MongoDBFast_github.bat uses a **fixed, predefined file path** in its code, while MongoDBFinder_github.bat **finds** the location of mongo.exe in your computer every time.
+* After setup, MongoDBFast_github.bat uses a **fixed, predefined file path** in its code, while MongoDBFinder_github.bat **finds** the location of mongo.exe in your computer every time.
 
 Make sure you have:
 * A Windows 10 computer
